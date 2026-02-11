@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Sivani A S, a B.Sc. Mathematics graduate and AI enthusiast.">
+    <title>Sivani A S | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Sivani<span class="highlight">.</span></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="subtitle">Hello, I'm</span>
+                    <h1 class="title">Sivani A S</h1>
+                    <h2 class="role">Aspiring <span class="txt-rotate" data-period="2000"
+                            data-rotate='[ "AI Engineer", "Data Analyst", "Machine Learning Enthusiast" ]'></span></h2>
+                    <p class="description">
+                        Mathematics graduate and AI student with a passion for transforming data into actionable
+                        insights.
+                        Building intelligent systems to solve real-world problems.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-outline">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <img src="profile.jpg" alt="Sivani A S" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            I am a recent B.Sc. Mathematics graduate currently pursuing a Postgraduate Diploma in
+                            Artificial Intelligence at Edure (2025).
+                            With a strong foundation in analytical thinking and Python programming, I am passionate
+                            about leveraging machine learning and
+                            data analysis to drive innovation.
+                        </p>
+                        <p>
+                            My technical toolkit includes Python, NumPy, Pandas, Matplotlib, and Seaborn, along with key
+                            ML algorithms like
+                            Linear Regression, Logistic Regression, Decision Trees, and Random Forests. I thrive in
+                            collaborative environments
+                            and am eager to apply my skills to challenging projects.
+                        </p>
+                        <ul class="about-info">
+                            <li><span>Location:</span> Trivandrum, India</li>
+                            <li><span>Email:</span> assivani@gmail.com</li>
+                            <li><span>Phone:</span> 7560995442</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fa-brands fa-python"></i> Programming & Dev</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">OOP</span>
+                            <span class="tag">Tkinter</span>
+                            <span class="tag">File Handling</span>
+                            <span class="tag">GUI Development</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-chart-line"></i> Data Analysis</h3>
+                        <div class="skill-tags">
+                            <span class="tag">NumPy</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Matplotlib</span>
+                            <span class="tag">Seaborn</span>
+                            <span class="tag">Data Cleaning</span>
+                            <span class="tag">Visualization</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-brain"></i> Machine Learning</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Linear Regression</span>
+                            <span class="tag">Logistic Regression</span>
+                            <span class="tag">Decision Trees</span>
+                            <span class="tag">Random Forest</span>
+                            <span class="tag">Predictive Modeling</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fa-solid fa-users"></i> Soft Skills</h3>
+                        <div class="skill-tags">
+                            <span class="tag">Communication</span>
+                            <span class="tag">Teamwork</span>
+                            <span class="tag">Adaptability</span>
+                            <span class="tag">Time Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Workforce Retention Intelligence System</h3>
+                            <p class="project-desc">
+                                Built an end-to-end ML system using preprocessing, feature engineering, and model tuning
+                                to support data-driven HR retention decisions.
+                                Predicted employee attrition to help organizations improve retention rates.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Machine Learning</span>
+                                <span class="tag">Python</span>
+                                <span class="tag">Predictive Modeling</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Social Media Sentiment Intelligence</h3>
+                            <p class="project-desc">
+                                Developed an NLP-based sentiment analysis pipeline using TF-IDF and supervised models to
+                                extract insights from unstructured text data.
+                                Analyzed user sentiment to understand public opinion trends.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">NLP</span>
+                                <span class="tag">TF-IDF</span>
+                                <span class="tag">Sentiment Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="project-card">
+                        <div class="project-content">
+                            <h3>Public Safety Incident Analytics</h3>
+                            <p class="project-desc">
+                                Analyzed emergency call data to identify temporal and location-based patterns,
+                                supporting operational efficiency and public service planning.
+                                Helped optimize resource allocation for emergency services.
+                            </p>
+                            <div class="project-tags">
+                                <span class="tag">Data Analytics</span>
+                                <span class="tag">Visualization</span>
+                                <span class="tag">Pattern Recognition</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section education">
+            <div class="container">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2025 - Present</div>
+                        <div class="timeline-content">
+                            <h3>PG Diploma in Artificial Intelligence</h3>
+                            <span class="institution">Edure</span>
+                            <p>Specializing in AI, Machine Learning, and Data Science technologies.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 - 2025</div>
+                        <div class="timeline-content">
+                            <h3>B.Sc. Mathematics</h3>
+                            <span class="institution">University of Kerala</span>
+                            <p>Graduated with a strong foundation in mathematical concepts and analytical
+                                problem-solving.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020 - 2022</div>
+                        <div class="timeline-content">
+                            <h3>Bioscience</h3>
+                            <span class="institution">Kerala Board of Secondary Education</span>
+                            <p>Completed higher secondary education with a focus on biological sciences.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <p>I am currently open to new opportunities and collaborations. Feel free to reach out!</p>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:assivani@gmail.com">assivani@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+917560995442">+91 7560995442</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-brands fa-github"></i>
+                            <a href="https://github.com/Sivani" target="_blank">github.com/Sivani</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Trivandrum, India</span>
+                        </div>
+                    </div>
+                    <form class="contact-form"
+                        onsubmit="event.preventDefault(); alert('This is a demo form. Please email directly at assivani@gmail.com');">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sivani A S. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/Sivani" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:assivani@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
